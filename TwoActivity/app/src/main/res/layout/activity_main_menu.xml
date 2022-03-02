@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2D6D1D1">
+
+    android:layout_width="wrap_content"
+    android:layout_height="79dp"
+    android:textSize="24sp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="379dp"
+        android:layout_height="133dp"
+        android:text="This is Activity Menu"
+        android:textSize="48sp"></TextView>
+
+    <Button
+        android:id="@+id/btnActOne"
+        android:layout_width="322dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#403C3C"
+        android:text="Go to Activity One"
+        android:textSize="24sp"></Button>
+
+    <Button
+        android:id="@+id/btnActTwo"
+        android:layout_width="319dp"
+        android:layout_height="91dp"
+        android:backgroundTint="#6B403C3C"
+        android:text="Go to Activity Two"
+        android:textSize="24sp"></Button>
+
+    <Button
+        android:id="@+id/btnActThree"
+        android:layout_width="319dp"
+        android:layout_height="78dp"
+        android:backgroundTint="#43403C3C"
+        android:text="Go to Activity three"
+        android:textSize="24sp"></Button>
+
+    <Button
+        android:id="@+id/btnActFour"
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:backgroundTint="#2C67645C"
+        android:text="Go to Activity four"
+        android:textSize="24sp"></Button>
+
+
+</LinearLayout>
